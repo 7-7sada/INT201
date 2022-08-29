@@ -37,3 +37,24 @@ console.log('--------------')
 let str = `Hello, World!`
 console.log(`str.length: ${str.length}`)
 console.log(str.replace('l', '*'))
+
+//ex.1
+// function getTitle (sex){
+//     return result = sex === 'male' ? 'Mr' :sex==='female' ?'Ms':'N/A'
+// }
+// console.log(getTitle('male'))
+// console.log(getTitle('female'))
+// console.log(getTitle())
+
+//-----------------------
+let arr1=[5,4,3]
+let arr2=[5,4,3]
+console.log(typeof arr1)
+console.log(typeof arr2)
+console.log(arr1===arr2)
+
+let arr3=arr1
+console.log(arr1===arr3)
+
+arr3[0] = 111
+console.log(arr1[0])

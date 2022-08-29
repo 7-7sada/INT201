@@ -67,3 +67,4 @@ if (sizeNumber === 1) sizeMeaning = 'S'
 else if (sizeNumber === 2) sizeMeaning = 'M'
 else sizeMeaning = 'L'
 console.log(sizeMeaning)
+
